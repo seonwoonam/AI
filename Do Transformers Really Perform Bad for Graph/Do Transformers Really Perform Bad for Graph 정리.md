@@ -51,7 +51,8 @@
     - edge에 feature 가 생김
     - sp feature 는 shortest path feature인데 가중치 같은 느낌인것 같다.
     
-    ![Untitled](Do%20Transformers%20Really%20Perform%20Bad%20for%20Graph%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%20542183a6c3684659a790000f2898b4fb/Untitled.png)
+    ![Untitled](https://github.com/seonwoonam/AI/assets/74304338/4983e024-971e-4e52-aa8d-79f7a7894c53)
+
     
 
 - Special Node

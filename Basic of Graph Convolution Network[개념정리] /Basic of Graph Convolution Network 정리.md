@@ -39,29 +39,29 @@
     - 다음 H1의 값은 주변 값들도 더해진 값
     - 같은 weight 값을 곱합
       
-![Untitled](https://github.com/seonwoonam/AI/assets/74304338/93648919-6043-413f-a9cc-83f2330fe611)
+![Untitled](https://github.com/seonwoonam/AI/assets/74304338/93648919-6043-413f-a9cc-83f2330fe611){: width="50%"}
 
 - 어떻게 구현할까
     - 그냥 for문 돌려서 하면 너무 cost가 높다
     - Adjacency matrix 를 이용해서 연산을 하면 되겠다
     - 아래와 같은 행렬 연산
 
-![Untitled](Basic%20of%20Graph%20Convolution%20Network%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2029227e42741d48a396b9bec2d1e1ed19/Untitled%201.png)
+![Untitled 1](https://github.com/seonwoonam/AI/assets/74304338/9ee63ee1-b5f2-4603-9067-3f891355eb41)
 
 - Adjacency matrix를 행으로 feature matrix를 열로 곱해서 인접되어있는 node 끼리에만 가중치가 업데이트 되게 연산
 
-![Untitled](Basic%20of%20Graph%20Convolution%20Network%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2029227e42741d48a396b9bec2d1e1ed19/Untitled%202.png)
+![Untitled 2](https://github.com/seonwoonam/AI/assets/74304338/9689913e-0343-49d8-a948-6086f84abf59)
 
 - Readout
     - 아래 그림 처럼 그래프의 모양이 완전히 같지만 어떻게 matrix에 입력 하느냐에 따라 바뀔 수 있음
     - 결국 같은 그래프니까 뽑아냈을때 같은 값을 뽑아내야함.
     - 아래식 처럼 적용하면 수학적으로 permutation 해소 가능.
 
-![Untitled](Basic%20of%20Graph%20Convolution%20Network%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2029227e42741d48a396b9bec2d1e1ed19/Untitled%203.png)
+![Untitled 3](https://github.com/seonwoonam/AI/assets/74304338/59aa986a-ab65-4926-9784-42518c662aef)
 
 - 전체적인 구조
 
-![Untitled](Basic%20of%20Graph%20Convolution%20Network%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2029227e42741d48a396b9bec2d1e1ed19/Untitled%204.png)
+![Untitled 4](https://github.com/seonwoonam/AI/assets/74304338/16cd3e9b-2ab6-40d6-b362-3c2eb424743b)
 
 - 참고
     - Regression ⇒ 손실함수 : MLE
@@ -72,7 +72,7 @@
 - Inception 적용
     - adjancecy를 한번 더 곱하기
 
-![Untitled](Basic%20of%20Graph%20Convolution%20Network%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2029227e42741d48a396b9bec2d1e1ed19/Untitled%205.png)
+![Untitled 5](https://github.com/seonwoonam/AI/assets/74304338/04788af6-6477-450f-83b0-944d89ba46d9)
 
 - Skip Connection
     - Gated Skip Connection

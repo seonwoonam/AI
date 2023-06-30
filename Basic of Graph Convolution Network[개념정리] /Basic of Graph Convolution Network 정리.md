@@ -38,8 +38,8 @@
 - 계산 방법
     - 다음 H1의 값은 주변 값들도 더해진 값
     - 같은 weight 값을 곱합
-
-![Untitled](Basic%20of%20Graph%20Convolution%20Network%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%85%E1%85%B5%2029227e42741d48a396b9bec2d1e1ed19/Untitled.png)
+      
+![Untitled](https://github.com/seonwoonam/AI/assets/74304338/93648919-6043-413f-a9cc-83f2330fe611)
 
 - 어떻게 구현할까
     - 그냥 for문 돌려서 하면 너무 cost가 높다
